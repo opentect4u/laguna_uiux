@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<title>SLL - Platform</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">	
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+	
+html {height: 100%}
+body {display: flex;
+min-height: 100%;
+flex-direction: column;
+background-image: url("images/breakfast_bg_image.jpg");}
+	
+.mainContainer{display: grid; flex: 1 0 auto; align-items: center; padding: 0 15px;}	
+.bgimg {
+  background-image: url('images/sunrise-view.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+	
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #00477E;
+  color: white;
+  font-size: 20px;
+}	
+	
+	
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #00477E;
+   color: white;
+   text-align: center;
+}	
+	
+body,td,th {
+    font-family: Raleway, sans-serif;
+}
+	
+.rowCustom{margin: 0 -15px;}	
+.fieldHalf{width: 50%; float: left; padding: 10px 15px;}
+.fieldFull{width:100%; float: left; padding: 10px 15px;}
+
+.menUlogoSec {
+    max-width: 450px;
+width: 100%;
+margin: 0 auto;
+border-radius: 10px;
+background: rgba(255, 255, 255, 0.5);
+}
+
+.logo {text-align: center; margin: 24px auto 12px auto;}	
+.logo img{max-width: 120px; width: 100%;}
+
+.menuSec{padding:0 15px 10px 15px;}
+.w3-highway-blue {
+color: #fff;
+background-color: #00477e;
+width: 100%;
+border-radius: 5px;
+transition: all 0.3s;
+transition: all 500ms ease-in-out
+}
+	
+</style>
+<body>
+	<div class="header">
+  <strong>REGISTER YOUR BUSINESS</strong>
+</div>
+
+<div class="mainContainer">
+<div class="menUlogoSec">
+<!--<div class="w3-container w3-center"><br>-->
+	<section class="logo"><img src="images/sll-logo.png" height="auto"><br></section>
+	
+<!--		<div class="w3-container w3-display-middle">-->
+	 <section class="menuSec">
+    <p align="center"><button onclick="document.getElementById('restaurant').style.display='block'" class="w3-button w3-highway-blue"><strong>Restaurant</strong></button></p>
+    <p align="center"><button onclick="document.getElementById('artist').style.display='block'" class="w3-button w3-highway-blue"><strong>Artist</strong></button></p>
+    <p align="center"><button onclick="document.getElementById('merchant').style.display='block'" class="w3-button w3-highway-blue"><strong>Merchant</strong></button></p>
+<!--	<p align="center"><button onclick="document.getElementById('packages').style.display='block'" class="w3-button w3-highway-red"><strong>Packages</strong></button></p> -->
+	 </section>
+<!--  </div>-->
+	
+	<!--</div>-->
+</div>	
+</div>	
+<div class="footer">
+<p class="w3-large">Restaurants | Artists | Merchants</p>
+
+</div>
+	
+	
+
+
+<!-- Restaurants Modal -->
+<div id="restaurant" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+	  <div class="w3-container w3-highway-blue">
+      <span onclick="document.getElementById('restaurant').style.display='none'" class="w3-button w3-display-topright w3-font-size small">x</span>
+      <h3>Restaurant</h3>
+    </div>
+    <div class="w3-container">
+      <p>Please complete and submit to register your restaurant:</p>
+      <form action="rest-order.php" target="_self">
+        <div class="rowCustom">
+		<div class="fieldHalf"><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Restaurant Name" required name="Name"></div>
+        <div class="fieldHalf"><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Contact Name" required name="Contact"></div>
+		</div>
+		<div class="rowCustom">
+        <div class="fieldHalf"><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Telephone" required name="Telephone"></div>
+        <div class="fieldHalf"><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></div>
+        </div>
+		<div class="rowCustom">
+		<div class="fieldHalf"><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Address 1" required name="Address1"></div>
+		<div class="fieldHalf"><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Address 2" name="Address2"></div>
+		</div>
+		<div class="rowCustom">
+		<div class="fieldHalf"><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="city/state" required name="cityState"></div>
+		<div class="fieldHalf"><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="zip/Postal code*" required name="zip"></div>
+		</div>
+		  
+		<div class="rowCustom">
+		<div class="fieldHalf">
+		<select class="w3-input w3-padding-16 w3-border" name="country">
+		  <option value="Select Country">Select Country</option>
+		  <option value="select1">Select 1</option>
+		  <option value="select2">Select 2</option>
+		  <option value="select3">Select 3</option>
+		</select>
+		</div>
+		
+        <div class="fieldHalf"><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Website" required name="Website"></div>
+		</div>
+		<!--	  <input type="radio" id="std" name="package" value="Standard">
+			  <label for="std">Standard Package $175.00 Set-Up and $30.00 per Month</label><br>
+			  <input type="radio" id="stdp" name="package" value="Standard Plus">
+			  <label for="stdp">Standard Plus Package $225.00 Set-Up and $35.00 Month</label><br>
+			  <input type="radio" id="prm" name="package" value="Premium">
+			  <label for="prm">Premium Package $275.00 Set-Up and $45.00 Month</label><br>  -->
+        <div class="rowCustom">
+        <div class="fieldFull"><button class="w3-button w3-highway-blue" type="submit">SUBMIT</button></div>
+		</div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Artists Modal -->
+<div id="artist" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-highway-blue">
+      <span onclick="document.getElementById('artist').style.display='none'" class="w3-button w3-display-topright w3-font-size small">x</span>
+      <h3>Artist</h3>
+    </div>
+    <div class="w3-container">
+      <p>Please complete and submit to register your business:</p>
+      <form action="/action_page.php" target="_self">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Company Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Contact Name" required name="Contact"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Telephone" required name="Telephone"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Address" required name="Address"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Website" required name="Website"></p>
+		<!--	  <input type="radio" id="stdA" name="package" value="Standard">
+			  <label for="std">Standard Package $175.00 Set-Up and $30.00 per Month</label><br>
+			  <input type="radio" id="stdpA" name="package" value="Standard Plus">
+			  <label for="stdp">Standard Plus Package $225.00 Set-Up and $35.00 Month</label><br>
+			  <input type="radio" id="prmA" name="package" value="Premium">
+			  <label for="prm">Premium Package $275.00 Set-Up and $45.00 Month</label><br> -->
+        <p><button class="w3-button w3-highway-blue" type="submit">SEND MESSAGE</button></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+	
+<!-- Merchants Modal -->
+<div id="merchant" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-highway-blue">
+      <span onclick="document.getElementById('merchant').style.display='none'" class="w3-button w3-display-topright w3-font-size small">x</span>
+      <h3>Merchant</h3>
+    </div>
+    <div class="w3-container">
+      <p>Please complete and submit to register your business:</p>
+      <form action="/action_page.php" target="_self">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Company Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Contact Name" required name="Contact"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Telephone" required name="Telephone"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Address" required name="Address"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Website" required name="Website"></p>
+		<!--	  <input type="radio" id="stdM" name="package" value="Standard">
+			  <label for="std">Standard Package $175.00 Set-Up and $30.00 per Month</label><br>
+			  <input type="radio" id="stdpM" name="package" value="Standard Plus">
+			  <label for="stdp">Standard Plus Package $225.00 Set-Up and $35.00 Month</label><br>
+			  <input type="radio" id="prmM" name="package" value="Premium">
+			  <label for="prm">Premium Package $275.00 Set-Up and $45.00 Month</label><br>  -->
+        <p><button class="w3-button w3-highway-blue" type="submit">SEND MESSAGE</button></p>
+      </form>
+    </div>
+  </div>
+</div>	
+	
+	
+<!-- Packages Modal -->
+<div id="packages" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-highway-red">
+      <span onclick="document.getElementById('packages').style.display='none'" class="w3-button w3-display-topright w3-font-size small">x</span>
+      <h3>PACKAGES</h3>
+    </div>
+    <div class="w3-container">
+      <p><strong>STANDARD Package:</strong><br>
+	    $175.00 Set-Up and $30.00 per Month<br>
+		One menu-includes Specials.<br>
+		Calendar (which is an option as you Register) and the Birthday Promotion.<br>
+
+	<br><strong>STANDARD PLUS Package:</strong><br>
+	    $225.00 Set-Up and $35.00 Month<br>
+		Two menus - includes Specials.<br>
+		Calendar (which is an option as you Register) and the Birthday Promotion.<br>  
+
+	<br><strong>PREMIUM Package:</strong><br>
+	    $275.00 Set-Up and $45.00 Month<br>
+		Unlimited menus (breakfast, lunch, dinner, brunch, etc.)<br>
+		Calendar (which is an option as you Register) and the Birthday Promotion<br>
+		Platform Management (we update everything, as needed): +$35.00 Month<br>
+		Email Management (with specific numbers of email campaigns per month, and creative design options): Request Quote<br>
+		</p>
+      
+    </div>
+  </div>
+</div>	
+</body>
+</html>
+
+

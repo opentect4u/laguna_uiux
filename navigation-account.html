@@ -1,0 +1,41 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.0/jquery.validate.min.js"></script>
+<style>
+    .m-menu__item--active {
+        color: #ec1a04 !important;
+        background-color: #000 !important;
+    }
+</style>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-dark-grey w3-animate-left" style="z-index:3;width:200px;" id="mySidebar"><br>
+
+  <div class="w3-container">
+	 <img src="images/logo-colour.png" width="100%" height="auto"><br>
+    <h5 style="font-weight: bold">MENU</h5>
+  </div>
+  <div class="w3-bar-block" id="side_nav_bar">
+    <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
+    <a href="property-search.php" class="w3-bar-item w3-button w3-padding search"><i class="fa fa-home fa-fw"></i>  Property Search</a>
+<!--<a href="renew.php" class="w3-bar-item w3-button w3-padding renew"><i class="fa fa-certificate fa-fw"></i>  Renew Certificate</a>  -->
+    <a href="messages.php" class="w3-bar-item w3-button w3-padding message"><i class="fa fa-envelope fa-fw"></i>  Message</a>
+    <a href="profile.php" class="w3-bar-item w3-button w3-padding account"><i class="fa fa-credit-card fa-fw"></i>  Profile</a>
+    <a href="index.php?ac=logout" class="w3-bar-item w3-button w3-padding"><i class="fa fa-history fa-fw"></i>  Sign Out</a>
+  </div>
+	
+	<br>
+<a href="https:www.infoquick.co.uk"><img src="images/powered_by_white.png" target="_blank" alt="image" width="70%" id="powered_by_white.png" /></a><br><br> 
+</nav>
+<script>
+    var manageActiveMenuItem = function (menuItemToActive) {
+        //debugger;
+        $("#side_nav_bar a").removeClass("m-menu__item--active");
+        $("#side_nav_bar a." + menuItemToActive).addClass("m-menu__item--active");
+    }
+
+    jQuery.validator.addMethod('mobileUK', function (phone_number, element) {
+        return this.optional(element) || phone_number.length > 9 &&
+            phone_number.match(/^((0|\+44)7(0|4|5|6|7|8|9){1}\d{2}\s?\d{6})$/);
+    }, 'Please specify a valid mobile number');
+
+</script>
