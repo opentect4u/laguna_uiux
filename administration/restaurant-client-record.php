@@ -138,7 +138,10 @@ body {font-family: "Raleway" sans-serif;}
   border: 1px solid #ccc;
   border-top: none;
 }
-</style>	
+</style>
+
+<link rel="stylesheet" type="text/css" href="../apps.css">
+	
 <body class="w3-white">
 
 <!-- Top container -->
@@ -161,563 +164,864 @@ body {font-family: "Raleway" sans-serif;}
     <h5><b><i class="fa fa-wpforms"></i> Restaurant Account</b></h5>
   </header>
 	<div class="w3-container w3-white w3-padding-32">
-	<div class="w3-container">
+	<div class="w3-container adminResturentTab">
 
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Restaurant</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Menu Setup 1</button>
-  <button class="tablinks" onclick="openCity(event, 'Hydrobad')">Menu Setup 2</button>
-  <button class="tablinks" onclick="openCity(event, 'Sydney')">Menu Setup 3</button>
-  <button class="tablinks" onclick="openCity(event, 'Phoenix')">Menu Setup 4</button>
-  <button class="tablinks" onclick="openCity(event, 'Christchurch')">Live Menus</button>
-  <button class="tablinks" onclick="openCity(event, 'Laguna')">QR Codes</button>
+  <button class="tablinks" onclick="openCity(event, 'tab1')" id="defaultOpen">Restaurant</button>
+  <button class="tablinks" onclick="openCity(event, 'tab2')">Download & Upload Image</button>
+  <button class="tablinks" onclick="openCity(event, 'tab3')">Download Section Image</button>
+  <button class="tablinks" onclick="openCity(event, 'tab33')">Set Date & Time</button>
+  <button class="tablinks" onclick="openCity(event, 'tab4')">Create Section</button>
+  <button class="tablinks" onclick="openCity(event, 'tab5')">Add Items</button>
+  
+  
+  <button class="tablinks" onclick="openCity(event, 'tab6')">Description Price</button>
+  <button class="tablinks" onclick="openCity(event, 'tab7')">Special Notes</button>
+  <button class="tablinks" onclick="openCity(event, 'tab8')">About Us</button>
+  
+  <button class="tablinks" onclick="openCity(event, 'tab9')">Live Menus</button>
+  <button class="tablinks" onclick="openCity(event, 'tab10')">QR Codes</button>
 </div>
 
-<div id="London" class="tabcontent"><br><br>
- <div style="overflow-x:auto;">
-        <table width="100%" cellspacing="15">
-  <tr>
+    <div id="tab1" class="tabcontent"><br><br>
+    <div style="overflow-x:auto;">
+    <table width="100%" cellspacing="15">
+    <tr>
     <th scope="col">RESTAURANT NAME</th>
     <th scope="col">CONTACT NAME</th>
     <th scope="col">ADDRESS</th>
     <th scope="col">PHONE</th>
     <th scope="col">EMAIL</th>
     <th scope="col">WEBSITE</th>
-  </tr>
-  <tr bgcolor="#fff" align="center">
+    </tr>
+    <tr bgcolor="#fff" align="center">
     <td bgcolor="#f1f1f1">
-<script>
-function msg() {
-  alert("Click on File Record to view details");
-}
-</script>The Cliff Restaurant</td>
+    <script>
+    function msg() {
+    alert("Click on File Record to view details");
+    }
+    </script>The Cliff Restaurant</td>
     <td>John Doe</td>
     <td>Laguna Beach 92651 CA</td>
     <td>(949) 123 4567</td>
     <td>info@thecliffrestaurant.com</td>
     <td>https://www.thecliffrestaurant.com/</td>
-  </tr>
-</table> <br>
-	</div>
-	<div style="overflow-x:auto;">
-	<table width="100%" cellspacing="15"> 
-  <tr>
+    </tr>
+    </table> <br>
+    </div>
+    <div style="overflow-x:auto;">
+    <table width="100%" cellspacing="15"> 
+    <tr>
     <th scope="col">LIVE DATE</th>
     <th scope="col">SETUP FEE</th>
     <th scope="col">MONTHLY FEE</th>
     <th scope="col">LAST PAID</th>
     <th scope="col">CANCEL DATE</th>
-  </tr>
-  <tr bgcolor="#fff" align="center">
+    </tr>
+    <tr bgcolor="#fff" align="center">
     <td bgcolor="#f1f1f1">07/30/2021</td>
     <td>275.00</td>
     <td>45.00</td>
     <td>08/30/2021</td>
     <td>00/00/0000</td>
-  </tr>
-</table> <br>
-	</div>
-	<div style="overflow-x:auto;">
+    </tr>
+    </table> <br>
+    </div>
+    <div style="overflow-x:auto;">
     <strong>REPORTS</strong><br><br>
-        <table width="100%" cellspacing="10">
-  <tr>
-	<th scope="col">Report Title</th>
-	<th scope="col"></th>
+    <table width="100%" cellspacing="10">
+    <tr>
+    <th scope="col">Report Title</th>
     <th scope="col"></th>
     <th scope="col"></th>
-  </tr>
-  <tr bgcolor="#fff" align="center">
+    <th scope="col"></th>
+    </tr>
+    <tr bgcolor="#fff" align="center">
     <td>Menu Scans</td>
     <td bgcolor="#f1f1f1"><a href="">
-      <form>
-        <input type="button" value="EXCEL" onclick="msg()">
-      </form>
-
-      <script>
-function msg() {
-  alert("Displays EXCEL Report");
-}
-      </script>
+    <form>
+    <input type="button" value="EXCEL" onclick="msg()">
+    </form>
+    
+    <script>
+    function msg() {
+    alert("Displays EXCEL Report");
+    }
+    </script>
     </a></td>
-	<td bgcolor="#f1f1f1"><a href="">
-      <form>
-        <input type="button" value="PDF" onclick="msg()">
-      </form>
-
-      <script>
-function msg() {
-  alert("Displays PDF Report");
-}
-      </script>
+    <td bgcolor="#f1f1f1"><a href="">
+    <form>
+    <input type="button" value="PDF" onclick="msg()">
+    </form>
+    
+    <script>
+    function msg() {
+    alert("Displays PDF Report");
+    }
+    </script>
     </a></td>  
     <td bgcolor="#f1f1f1"><a href="">
-      <form>
-        <input type="button" value="PRINT" onclick="msg()">
-      </form>
-
-      <script>
-function msg() {
-  alert("Displays PRINT Report");
-}
-      </script>
+    <form>
+    <input type="button" value="PRINT" onclick="msg()">
+    </form>
+    
+    <script>
+    function msg() {
+    alert("Displays PRINT Report");
+    }
+    </script>
     </a></td>
-  </tr>
-  <tr bgcolor="#fff" align="center">
+    </tr>
+    <tr bgcolor="#fff" align="center">
     <td>Promotion - Registrations </td>
     <td bgcolor="#f1f1f1"><form>
-  <input type="button" value="EXCEL" onclick="msg()">
-</form>
-
-<script>
-function msg() {
-  alert("Displays EXCEL Report");
-}
-	</script></td>
-	<td bgcolor="#f1f1f1"><a href="">
-      <form>
-        <input type="button" value="PDF" onclick="msg()">
-      </form>
-
-      <script>
-function msg() {
-  alert("Displays PDF Report");
-}
-      </script>
+    <input type="button" value="EXCEL" onclick="msg()">
+    </form>
+    
+    <script>
+    function msg() {
+    alert("Displays EXCEL Report");
+    }
+    </script></td>
+    <td bgcolor="#f1f1f1"><a href="">
+    <form>
+    <input type="button" value="PDF" onclick="msg()">
+    </form>
+    
+    <script>
+    function msg() {
+    alert("Displays PDF Report");
+    }
+    </script>
     </a></td>
     <td bgcolor="#f1f1f1"><a href="">
-      <form>
-        <input type="button" value="PRINT" onclick="msg()">
-      </form>
-
-      <script>
-function msg() {
-  alert("Displays PRINT Report");
-}
-      </script>
+    <form>
+    <input type="button" value="PRINT" onclick="msg()">
+    </form>
+    
+    <script>
+    function msg() {
+    alert("Displays PRINT Report");
+    }
+    </script>
     </a></td>
-  </tr>
-  <tr bgcolor="#fff" align="center">
+    </tr>
+    <tr bgcolor="#fff" align="center">
     <td>Promotion - Emailed Offers</td>
     <td bgcolor="#f1f1f1"><form>
-  <input type="button" value="EXCEL" onclick="msg()">
-</form>
-
-<script>
-function msg() {
-  alert("Displays EXCEL Report");
-}
-</script></td>
-	<td bgcolor="#f1f1f1"><a href="">
-      <form>
-        <input type="button" value="PDF" onclick="msg()">
-      </form>
-
-      <script>
-function msg() {
-  alert("Displays PDF Report");
-}
-      </script>
+    <input type="button" value="EXCEL" onclick="msg()">
+    </form>
+    
+    <script>
+    function msg() {
+    alert("Displays EXCEL Report");
+    }
+    </script></td>
+    <td bgcolor="#f1f1f1"><a href="">
+    <form>
+    <input type="button" value="PDF" onclick="msg()">
+    </form>
+    
+    <script>
+    function msg() {
+    alert("Displays PDF Report");
+    }
+    </script>
     </a></td>
     <td bgcolor="#f1f1f1"><a href="">
-      <form>
-        <input type="button" value="PRINT" onclick="msg()">
-      </form>
-
-      <script>
-function msg() {
-  alert("Displays PRINT Report");
-}
-      </script>
+    <form>
+    <input type="button" value="PRINT" onclick="msg()">
+    </form>
+    
+    <script>
+    function msg() {
+    alert("Displays PRINT Report");
+    }
+    </script>
     </a></td>
-  </tr>
-</table><br><br>
+    </tr>
+    </table><br><br>
+    </div>
+    </div>
+    
+    <div id="tab2" class="tabcontent">
+    
+    <label class="titleCustom"><i class="fa fa-arrow-right"></i> Logo</label>
+    <div class="table-responsive table_responsiveCus">
+    <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Logo URL</th>
+        <th scope="col">Preview Image </th>
+        <th scope="col">Upload Logo</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><input type="url" id="headTitle" name="headTitle" value="" placeholder="URL" class="formCss"></td>
+        
+        <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
+         </td>
+        <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
+      </tr>
+      
+    </tbody>
+  </table>
+      
 	</div>
-	</div><br><br>
+   
+<hr>
+    <label class="titleCustom"><i class="fa fa-arrow-right"></i> Cover Image</label>
+    <div class="table-responsive table_responsiveCus">
+    <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Restaurant - Time</th>
+        <th scope="col">Download Link</th>
+        <th scope="col">Preview Image </th>
+        <th scope="col"> Upload Image </th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><strong>Breakfast</strong></td>
+        <td>
+        <input type="url" id="headTitle" name="headTitle" value="" placeholder="URL" class="formCss">
+        
+</td>
+        <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
+         </td>
+        <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><strong>Lunch</strong> </td>
+        <td>
+        <input type="url" id="headTitle" name="headTitle" value="" placeholder="URL" class="formCss">
+        
+</td>
+        <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
+         </td>
+        <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td> <strong>Dinner</strong> </td>
+        <td>
+        <input type="url" id="headTitle" name="headTitle" value="" placeholder="URL" class="formCss">
+        
+</td>
+        <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
+         </td>
+        <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>  <strong>Brunch</strong>  </td>
+        <td>
+        <input type="url" id="headTitle" name="headTitle" value="" placeholder="URL" class="formCss">
+        
+</td>
+        <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
+         </td>
+        <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>  <strong>Specials</strong>  </td>
+        <td>
+        <input type="url" id="headTitle" name="headTitle" value="" placeholder="URL" class="formCss">
+        
+</td>
+        <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
+         </td>
+        <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
+      </tr>
+    </tbody>
+  </table>
+      
+	</div>
+<hr>
 
-<div id="Paris" class="tabcontent">
-	This is where you create the menus using the data taken from either the PDF provided by the restaurant or the link to their website.<br>
-	<br>
-	First of all identify which menus they offer including the start and end times of each menu<br><br>
+    <label class="titleCustom"><i class="fa fa-arrow-right"></i> Top Image</label>
+    <div class="table-responsive table_responsiveCus">
+    <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Restaurant - Time</th>
+        <th scope="col">Download Link</th>
+        <th scope="col">Preview Image </th>
+        <th scope="col"> Upload Image </th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><strong>Breakfast</strong></td>
+        <td>
+        <input type="url" id="headTitle" name="headTitle" value="" placeholder="URL" class="formCss">
+        
+</td>
+        <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
+         </td>
+        <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><strong>Lunch</strong> </td>
+        <td>
+        <input type="url" id="headTitle" name="headTitle" value="" placeholder="URL" class="formCss">
+        
+</td>
+        <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
+         </td>
+        <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td> <strong>Dinner</strong> </td>
+        <td>
+        <input type="url" id="headTitle" name="headTitle" value="" placeholder="URL" class="formCss">
+        
+</td>
+        <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
+         </td>
+        <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>  <strong>Brunch</strong>  </td>
+        <td>
+        <input type="url" id="headTitle" name="headTitle" value="" placeholder="URL" class="formCss">
+        
+</td>
+        <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
+         </td>
+        <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>  <strong>Specials</strong>  </td>
+        <td>
+        <input type="url" id="headTitle" name="headTitle" value="" placeholder="URL" class="formCss">
+        
+</td>
+        <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
+         </td>
+        <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
+      </tr>
+    </tbody>
+  </table>
+      
+	</div>
+    
+    
+    
+    </div>
+    
+    <div id="tab3" class="tabcontent">	
+  
+    <div class="radioBtnSec"><label class="radioButtonName"><input type="radio" id="bkmenu" name="bkmenu" value="Breakfast Menu"> Breakfast Menu</label>
+    <label class="radioButtonName"><input type="radio" id="bkmenu" name="bkmenu" value="Lunch  Menu">  Lunch  Menu</label>
+    <label class="radioButtonName"><input type="radio" id="bkmenu" name="bkmenu" value="bkMenu4">  Dinner  Menu</label>
+    <label class="radioButtonName"><input type="radio" id="bkmenu" name="bkmenu" value="bkMenu48">  Brunch  Menu</label>
+    <label class="radioButtonName"><input type="radio" id="bkmenu" name="bkmenu" value="bkMenu43">  Specials  Menu</label></div>
+    <div class="table-responsive table_responsiveCus">
+    <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Sl. No.</th>
+        <th scope="col">URL</th>
+        <th scope="col">Download Images </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><input type="url" id="headTitle" name="headTitle" value="" placeholder="URL" class="formCss"></td>
+        
+        <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
+         </td>
+      </tr>
+      <tr>
+        <th scope="row">1</th>
+        <td><input type="url" id="headTitle" name="headTitle" value="" placeholder="URL" class="formCss"></td>
+        
+        <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
+         </td>
+      </tr>
+      <tr>
+        <th scope="row">1</th>
+        <td><input type="url" id="headTitle" name="headTitle" value="" placeholder="URL" class="formCss"></td>
+        
+        <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
+         </td>
+      </tr>
+      <tr>
+        <th scope="row">1</th>
+        <td><input type="url" id="headTitle" name="headTitle" value="" placeholder="URL" class="formCss"></td>
+        
+        <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
+         </td>
+      </tr>
+      <tr>
+        <th scope="row">1</th>
+        <td><input type="url" id="headTitle" name="headTitle" value="" placeholder="URL" class="formCss"></td>
+        
+        <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
+         </td>
+      </tr>
+    </tbody>
+  </table>
+      
+	</div>
+    
+    
+    
+    </div>
+    <div id="tab33" class="tabcontent">
+    <div class="dateTime">
+    
+    
+	<div class="formTable">
+		
+
+			<form class="form-inline" action="">
+				<div class="rowCustomFour">
+			<div class="fieldSecHalf">
+			<label>Section Name</label>
+			<select id="pickup_place" name="pickup_place" class="formCss">
+			<option value="" selected="selected">Select One</option>
+			<option value="all">ALL Menus</option>
+			<option value="breakfast">Breakfast</option>
+			<option value="lunch">Lunch</option>
+			<option value="dinner">Dinner</option>
+			<option value="brunch">Brunch</option>
+			<option value="specials">Specials</option>
+			</select>
+			 
+			</div>
+				
+			
+					
+			</div>
+				</form> 
+			
+			
+			
+			</div>
 	
-	
-  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-  <label for="vehicle2"> Breakfast</label>
-	<form class="form-inine">
-  Start Time: <input type="text" value="">
-  End Time: <input type="text" name="lastname" value="">
-	</form>	<br>
-  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-  <label for="vehicle3"> Lunch</label><br>
-	<form class="form-inine">
-  Start Time: <input type="text" value="">
-  End Time: <input type="text" name="lastname" value="">
-	</form>	<br>
+		<div class="dateTimLeft">
+	<div class="form-inline dateTimRow">
   <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-  <label for="vehicle1"> Dinner</label><br>
-	<form class="form-inine">
-  Start Time: <input type="text" value="">
-  End Time: <input type="text" name="lastname" value="">
-	</form>	<br>
+  <label for="vehicle1"> Every Day</label><br>
+	</div>
+		
+	<div class="form-inline dateTimRow">
   <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-  <label for="vehicle2"> Brunch</label><br>
-	<form class="form-inine">
-  Start Time: <input type="text" value="">
-  End Time: <input type="text" name="lastname" value="">
-	</form>	<br>
+  <label for="vehicle2"> Monday</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Tuesday</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Wednesday</label><br>
+	</div>
+<div class="form-inline dateTimRow">
   <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-  <label for="vehicle2"> Specials</label><br>
-	<form class="form-inine">
-  Start Time: <input type="text" value="">
-  End Time: <input type="text" value="">
-	</form>	<br>
-	<br> <br>
-	
+  <label for="vehicle2"> Thursday</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> Friday</label><br>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> Saturday</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> Sunday</label><br>
+	</div></div>
+	<div class="dateTimRight">
+		<div class="form-inline timRow">
+	<label for="selfcling">Start Time:</label>
+	<input type="text" id="selfcling" name="selfcling" value="" size="4"><br><br>
+    <label for="selfcling">End Time:</label>
+	<input type="text" id="selfcling" name="selfcling" value="" size="4">
+	</div></div>
+    <br clear="all">
 
-	
-	
-	
-	Now create the SECTIONS of each menu. Enter the title names one after the other seperated by a comma in the box provided<br><br>
-	<form class="form-inline" action="">
-	<input type="checkbox" id="vehicle2" name="vehicle2" value="breakfast">
-	<label for="vehicle2"> Breakfast</label><br> <br> <input type="text" value=""><br>
-	<input type="checkbox" id="vehicle2" name="vehicle2" value="breakfast">	
-	<label for="vehicle2"> Lunch</label><br> <input type="text" value="">	
-	<input type="checkbox" id="vehicle2" name="vehicle2" value="breakfast">	
-	<label for="vehicle2"> Dinner</label><br> <input type="text" value="">		
-	</form> <br>
-	<form class="form-inline" action="">
-	<input type="checkbox" id="vehicle2" name="vehicle2" value="breakfast">	
-	<label for="vehicle2"> Brunch</label><br> <input type="text" value="">	
-	<input type="checkbox" id="vehicle2" name="vehicle2" value="breakfast">	
-	<label for="vehicle2"> Specials</label><br> <input type="text" value="">	
-	</form>  <br> <br>
-	
-	Please check that the details you've entered match the data on the Restaurant's Menu before you save.<br><br>
-    <form class="form-inline" action="">
-    <button type="submit" class="btn btn-default">SAVE</button>
-  	<button type="reset" value="Reset" style="background-color:#F00">Clear</button> 
-  	</form>
+    <form action="thanks-order.php" target="_self">	
+		<button class="w3-button w3-green" type="submit">Submit </button>
+		</form>
+
 	
 </div>
-	<div id="Hydrobad" class="tabcontent">	
+    </div>
+    
+    <div id="tab4" class="tabcontent">
+    
+    
+    <div class="radioBtnSec"><label class="radioButtonName"><input type="radio" id="bkmenu" name="bkmenu" value="Breakfast Menu"> Breakfast Menu</label>
+    <label class="radioButtonName"><input type="radio" id="bkmenu" name="bkmenu" value="Lunch  Menu">  Lunch  Menu</label>
+    <label class="radioButtonName"><input type="radio" id="bkmenu" name="bkmenu" value="bkMenu4">  Dinner  Menu</label>
+    <label class="radioButtonName"><input type="radio" id="bkmenu" name="bkmenu" value="bkMenu48">  Brunch  Menu</label>
+    <label class="radioButtonName"><input type="radio" id="bkmenu" name="bkmenu" value="bkMenu43">  Specials  Menu</label></div>
+    <div class="formTable">
 		
-		This is where you create the <strong>ITEMS</strong> in each <strong>SECTION</strong>. Using the drop down selectors choose a Menu and then a <strong>SECTION</strong>.<br><br> You will then enter the name of each <strong>ITEMS</strong> in that <strong>SECTION</strong> one by one BUT making sure you seperate each <strong>ITEMS</strong> with a comma.<br><br>
-		You must then SAVE those <strong>ITEMS</strong> for that menu before entering the next Menu/<strong>SECTION ITEMS</strong>.<br><br>
-		
-			<form class="form-inline" action="">
-			<p>
-			<label>Menu
-			<select id="pickup_place" name="pickup_place">
-			<option value="" selected="selected">Select One</option>
-			<option value="breakfast" >Breakfast</option>
-			<option value="lunch" >Lunch</option>
-			<option value="dinner" >Dinner</option>
-			<option value="brunch" >Brunch</option>
-			<option value="specials" >Specials</option>
-			</select>
-			</label> 
-			</p>
 
-			<p>
-			<label>Section
-			<select id="" name="">
-			<option value="" selected="selected">Select One</option>
-			<option value="img1" >Section 1</option>
-			<option value="img2" >Section 2</option>
-			<option value="img3" >Section 3</option>
-			<option value="img1" >Section 4</option>
-			<option value="img2" >Section 5</option>
-			<option value="img3" >Section 6</option>
-			<option value="img3" >Section 7</option>
-			</select>
-			</label> 
-			</p>
+			<form class="form-inline" action="">
+				<div class="rowCustomFour">
+			<div class="fieldSecFull">
+			<label>Section Name</label>
+			<input type="url" id="headTitle" name="headTitle" value="" class="formCss">
+			 
+			</div></div>
+            
+            <div class="rowCustomFour">
 				
-			<input type="checkbox" id="vehicle2" name="vehicle2" value="breakfast">
-			<label for="vehicle2"> Item Names</label><br> <br> <textarea id="spclMore" name="spclMore" rows="1" cols="40"></textarea>	
-			</form> 
-		
-			Please check that the details you've entered match the data on the Restaurant's Menu before you save.<br><br>
-			<form class="form-inline" action="">
-			<button type="submit" class="btn btn-default">SAVE</button>
-			<button type="reset" value="Reset" style="background-color:#F00">Clear</button> 
-			</form>
-		
-		
-		
-		</div>
-		
-		
-		<div id="Sydney" class="tabcontent">
-		
-		This is where you create the Description, Price and Notes for each item on every menu.<br>
-		<br>Using the drop down selectors choose a Menu, Section and then an Item. You will then enter the Description of each item together with the price in the next box and in the last box and additional Notes that are often provided on a menu.<br><br>
-		You must then SAVE those items for that menu before entering the next Menu/Sector Items.<br><br>
-		
-			<form class="form-inline" action="">
-			<p>
-			<label>Menu
-			<select id="pickup_place" name="pickup_place">
-			<option value="" selected="selected">Select One</option>
-			<option value="breakfast" >Breakfast</option>
-			<option value="lunch" >Lunch</option>
-			<option value="dinner" >Dinner</option>
-			<option value="brunch" >Brunch</option>
-			<option value="specials" >Specials</option>
-			</select>
-			</label> 
-			</p>
+			<div class="fieldSecFull">
+			<!--<label>Upload Section Images</label>
+			<label class="uploadTxt">Upload Section images JPG or PNG:</label>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple="">-->
+        
+  <label>Upload Section Image </label>
+  <label class="uploadTxt">Upload Section images JPG or PNG:</label>
+  <input id='files' type='file' multiple/>
+  <output id='result' />
 
-			<p>
-			<label>Section
-			<select id="" name="">
+			 
+			</div>
+					
+			</div>
+				</form> 
+			
+			
+			
+			</div>
+            
+            <form action="thanks-order.php" target="_self">	
+		<button class="w3-button w3-green" type="submit">Submit </button>
+		</form>
+    
+    </div>
+    
+    
+    <div id="tab5" class="tabcontent">
+    <div class="dateTime">
+	<div class="formTable">
+		
+
+			<form class="form-inline" action="">
+				<div class="rowCustomFour">
+			<div class="fieldSecHalf">
+			<label>Menu Name</label>
+			<select id="pickup_place" name="pickup_place" class="formCss">
 			<option value="" selected="selected">Select One</option>
-			<option value="img1" >Section 1</option>
-			<option value="img2" >Section 2</option>
-			<option value="img3" >Section 3</option>
-			<option value="img1" >Section 4</option>
-			<option value="img2" >Section 5</option>
-			<option value="img3" >Section 6</option>
-			<option value="img3" >Section 7</option>
+			<option value="all">ALL Menus</option>
+			<option value="breakfast">Breakfast</option>
+			<option value="lunch">Lunch</option>
+			<option value="dinner">Dinner</option>
+			<option value="brunch">Brunch</option>
+			<option value="specials">Specials</option>
 			</select>
-			</label> 
-			</p>
+			 
+			</div>
+			</div>
+            
+            <div class="rowCustomFour">
+			<div class="fieldSecHalf">
+			<label>Section Name</label>
+			<select id="pickup_place" name="pickup_place" class="formCss">
+			<option value="" selected="selected">Select One</option>
+			<option value="all">ALL Menus</option>
+			<option value="breakfast">Top </option>
+			<option value="lunch">Cover</option>
+			
+			</select>
+			 
+			</div>
+            
+            <div class="fieldSecHalf">
+			<label>Item Name</label>
+			<select id="pickup_place" name="pickup_place" class="formCss">
+			<option value="" selected="selected">Select One</option>
+			<option value="all">1</option>
+			<option value="breakfast">2</option>
+			<option value="lunch">3</option>
+			<option value="dinner">4</option>
+			<option value="brunch">5</option>
+			<option value="specials">6</option>
+			</select>
+			 
+			</div>
+			</div>
+				</form> 
+			
+			
+			
+			</div>
+	
+		
+    
+    <form action="thanks-order.php" target="_self">	
+		<button class="w3-button w3-green" type="submit">Submit </button>
+		</form>
+
+	
+</div>
+    
+    
+    </div>
+    
+    <div id="tab6" class="tabcontent">
+    
+    <div class="formTable">
+		
+
+			<form class="form-inline" action="">
+				<div class="rowCustomFour">
+			<div class="fieldSecHalf">
+			<label>Menu</label>
+			<select id="pickup_place" name="pickup_place" class="formCss">
+			<option value="" selected="selected">Select One</option>
+			<option value="all">ALL Menus</option>
+			<option value="breakfast">Breakfast</option>
+			<option value="lunch">Lunch</option>
+			<option value="dinner">Dinner</option>
+			<option value="brunch">Brunch</option>
+			<option value="specials">Specials</option>
+			</select>
+			 
+			</div>
 				
-			<p>
-			<label>Item
-			<select id="" name="">
-			<option value="" selected="selected">Select One</option>
-			<option value="img1" >Item 1</option>
-			<option value="img2" >Item 2</option>
-			<option value="img3" >Item 3</option>
-			<option value="img1" >Item 4</option>
-			<option value="img2" >Item 5</option>
-			<option value="img3" >Item 6</option>
-			<option value="img3" >Item 7</option>
-			</select>
-			</label> 
-			</p>
+			<div class="fieldSecHalf">
+			<label>Section</label>
+			<input type="text" id="headTitle" name="headTitle" value="" class="formCss">
+			 
+			</div>
+					
+			</div>
+            
+            <div class="rowCustomFour">
+			<div class="fieldSecHalf">
+			<label>Items</label>
+			<input type="text" id="headTitle" name="headTitle" value="" class="formCss">
+			 
+			</div>
+				
+			<div class="fieldSecHalf">
+			<label>Price</label>
+			<input type="text" id="headTitle" name="headTitle" value="" class="formCss">
+			 
+			</div>
+					
+			</div>
 				</form> 
 			
 			<form class="form-inline" action="">
-			<input type="checkbox" id="vehicle2" name="vehicle2" value="breakfast">
-			<label for="vehicle2"> Description</label><br> <br> <textarea id="spclMore" name="spclMore" rows="1" cols="60"></textarea>	
-			</form><br>
-			<form class="form-inline" action="">
-			<input type="checkbox" id="vehicle2" name="vehicle2" value="breakfast">
-			<label for="vehicle2"> Price</label><br> <br> <textarea id="spclMore" name="spclMore" rows="1" cols="6">$</textarea>
-			</form><br>
-			<form class="form-inline" action="">	
-			<input type="checkbox" id="vehicle2" name="vehicle2" value="breakfast">
-			<label for="vehicle2"> Additional Notes</label><textarea id="spclMore" name="spclMore" rows="1" cols="60"></textarea>	
+			<div class="rowCustomFour">
+			<div class="fieldSecFull">
+			<label for="vehicle2"> Description</label>
+			<textarea id="spclMore" name="spclMore" rows="5" cols="60" class="formCssTextArea"></textarea>	
+			</div>
+			</div>
 			</form>
-			<br><br>
-		
-			Please check that the details you've entered match the data on the Restaurant's Menu before you save.<br><br>
-			<form class="form-inline" action="">
-			<button type="submit" class="btn btn-default">SAVE</button>
-			<button type="reset" value="Reset" style="background-color:#F00">Clear</button> 
+            
+            <form class="form-inline" action="">
+			<div class="rowCustomFour">
+			<div class="fieldSecFull">
+			<label for="vehicle2"> Additional Notes</label>
+			<textarea id="spclMore" name="spclMore" rows="5" cols="60" class="formCssTextArea"></textarea>	
+			</div>
+			</div>
 			</form>
-			
+            <form action="thanks-order.php" target="_self">	
+		<button class="w3-button w3-green" type="submit">Submit </button>
+		</form>
+			</div>
+    
+    </div>
+    <div id="tab7" class="tabcontent">xxxxxxxxxxx</div>
+    <div id="tab8" class="tabcontent">
+    
+    <form action="" class="form-inline">
 
+		  
+		<div class="aboutLeft">  
+		<label class="titleCustom">About Us</label>
+		<textarea name="introduction" maxlength="500" rows="6" cols="25" class="formCssTextArea" readonly>We would love to make your next Birthday/Anniversary extra special with a gift you will find hard to resist but like all gifts they cannot be revealed until nearer the day! So enter your details below and we'll be in touch a couple of weeks before.</textarea>
 		
 		</div>
-		
-		<div id="Phoenix" class="tabcontent">
-		This is where you create any Special Notices that need to be shown on every menu. This could be for any reason with the most obvious being a regulatory statement required by law, such as warnings for people who suffer with Nut Allergies.<br> 
-			<br>Using the drop down selectors choose a Menu and Position of the Notice. You then select the Header Title, the color of the Font and the background, followed by the Description. You must then SAVE this before entering another Notice.<br><br>
-		
-			<form class="form-inline" action="">
-			<p>
-			<label>Menu
-			<select id="pickup_place" name="pickup_place">
-			<option value="" selected="selected">Select One</option>
-			<option value="all" >ALL Menus</option>
-			<option value="breakfast" >Breakfast</option>
-			<option value="lunch" >Lunch</option>
-			<option value="dinner" >Dinner</option>
-			<option value="brunch" >Brunch</option>
-			<option value="specials" >Specials</option>
-			</select>
-			</label> 
-			</p>
-				
-			<p>
-			<label>Position
-			<select id="" name="">
-			<option value="" selected="selected">Select One</option>
-			<option value="img1" >Top under Header Image</option>
-			<option value="img2" >Bottom after last Section </option>
-			<option value="img3" >After each Section</option>
-			</select>
-			</label> 
-			</p>
-				</form> 
-			
-			<form class="form-inline" action="">
-			<form action="">
-			<label for="headTitle">Header Title:</label><input type="text" id="headTitle" name="headTitle" value="">
-			</form>	
-			<form class="form-inline" action="">
-			  <label for="favcolor">Select your font color:</label>
-			  <input type="color" id="favcolor" name="favcolor" value="#ff0000">
-			<label for="code">Enter Code:</label><input type="text" id="code" name="code" value="">			
-			<br>
-			</form>
-			<form class="form-inline" action="">
-			  <label for="favcolor">Select your background color:</label>
-			  <input type="color" id="favcolor" name="favcolor" value="#ff0000">
-			<label for="code">Enter Code:</label><input type="text" id="code" name="code" value="">			
-			<br>
-			</form><br>
-			<form class="form-inline" action="">
-			<label for="vehicle2"> Notice Content</label><textarea id="spclMore" name="spclMore" rows="5" cols="60"></textarea>	
-			</form>
-			<br><br>
-		
-			Please check that the details you've entered match the data on the Restaurant's Menu before you save.<br><br>
-			<form class="form-inline" action="">
-			<button type="submit" class="btn btn-default">SAVE</button>
-			<button type="reset" value="Reset" style="background-color:#F00">Clear</button> 
-			</form>
-
+        <div class="aboutLeft">
+		<label class="titleCustom">About Us (update)</label>
+		<textarea name="introduction" maxlength="500" rows="6" cols="25" class="formCssTextArea"></textarea>
 		
 		</div>
-		
-		<div id="Christchurch" class="tabcontent">
-			<strong>MENU URL's</strong><br><br>
-				<form class="form-inine">
-			  Breakfast URL: <input type="text" value="" size="100">
-				</form>	<br>
-				<form class="form-inine">
-			  Lunch URL: <input type="text" value="" size="100">
-				</form>	<br>
-				<form class="form-inine">
-			  Dinner URL: <input type="text" size="100">
-				</form>	<br>
-				<form class="form-inine">
-			  Brunch URL: <input type="text" size="100">
-				</form>	<br>
-				<form class="form-inine">
-			  Specials URL: <input type="text" size="100">
-				</form><br><br>
-			<strong>REDIRECT URL (to be used for Menu QR Code)</strong><br><br>
-				<form class="form-inine">
-			  Bitly URL: <input type="text" size="120">
-				</form><br>
-			<strong>LANDING PAGE URL (to be used on vCard)</strong><br><br>
-				<form class="form-inine">
-			  Bitly URL: <input type="text" size="120">
-				</form><br><br>
-			
-			
-			
-			<strong>You can check any amendments by using the menu button below to view that menu. Always refresh the page before checking and clearing your cache memory if you need to.</strong>	
-		<div style="overflow-x:auto;">
-        <table width="100%" cellspacing="15">
-  <tr>
+</form> 
+   
+	
+	<p>Please check that your update is correct before you press SUBMIT as the change will take effect immediately</p>
+   
+		    <form class="form-inline" action="">
+    <button type="submit" class="btn btn-default">SUBMIT</button>
+  	<button type="reset" value="Reset" style="background-color:#F00">Clear</button> 
+  	</form>
+    </div>
+    
+    
+    
+    <div id="tab9" class="tabcontent">
+    <strong>MENU URL's</strong><br><br>
+    <form class="form-inine">
+    Breakfast URL: <input type="text" value="" size="100">
+    </form>	<br>
+    <form class="form-inine">
+    Lunch URL: <input type="text" value="" size="100">
+    </form>	<br>
+    <form class="form-inine">
+    Dinner URL: <input type="text" size="100">
+    </form>	<br>
+    <form class="form-inine">
+    Brunch URL: <input type="text" size="100">
+    </form>	<br>
+    <form class="form-inine">
+    Specials URL: <input type="text" size="100">
+    </form><br><br>
+    <strong>REDIRECT URL (to be used for Menu QR Code)</strong><br><br>
+    <form class="form-inine">
+    Bitly URL: <input type="text" size="120">
+    </form><br>
+    <strong>LANDING PAGE URL (to be used on vCard)</strong><br><br>
+    <form class="form-inine">
+    Bitly URL: <input type="text" size="120">
+    </form><br><br>
+    
+    
+    
+    <strong>You can check any amendments by using the menu button below to view that menu. Always refresh the page before checking and clearing your cache memory if you need to.</strong>	
+    <div style="overflow-x:auto;">
+    <table width="100%" cellspacing="15">
+    <tr>
     <th scope="col">BREAKFAST</th>
     <th scope="col">LUNCH</th>
     <th scope="col">DINNER</th>
     <th scope="col">BRUNCH</th>
     <th scope="col">SPECIALS</th>
-  </tr>
-  <tr bgcolor="#fff" align="center">
-  <td><a href="https://shoplocallaguna.com/restaurants/the-cliff/breakfast.php" 
-  target="popup" 
-  onclick="window.open('https://shoplocallaguna.com/restaurants/the-cliff/breakfast.php','popup','width=400,height=500'); return false;">
+    </tr>
+    <tr bgcolor="#fff" align="center">
+    <td><a href="https://shoplocallaguna.com/restaurants/the-cliff/breakfast.php" 
+    target="popup" 
+    onclick="window.open('https://shoplocallaguna.com/restaurants/the-cliff/breakfast.php','popup','width=400,height=500'); return false;">
     VIEW</a></td>
     <td><a href="https://shoplocallaguna.com/restaurants/the-cliff/lunch.php" 
-  target="popup" 
-  onclick="window.open('https://shoplocallaguna.com/restaurants/the-cliff/lunch.php','popup','width=400,height=500'); return false;">
+    target="popup" 
+    onclick="window.open('https://shoplocallaguna.com/restaurants/the-cliff/lunch.php','popup','width=400,height=500'); return false;">
     VIEW</a></td>
     <td><a href="https://shoplocallaguna.com/restaurants/the-cliff/dinner.php" 
-  target="popup" class="w3-container" 
-  onclick="window.open('https://shoplocallaguna.com/restaurants/the-cliff/dinner.php','popup','width=400,height=500'); return false;">
+    target="popup" class="w3-container" 
+    onclick="window.open('https://shoplocallaguna.com/restaurants/the-cliff/dinner.php','popup','width=400,height=500'); return false;">
     VIEW</a></td>
     <td><a href="" 
-  target="popup" 
-  onclick="">
+    target="popup" 
+    onclick="">
     VIEW</a></td>
     <td><a href="" 
-  target="popup" 
-  onclick="">
+    target="popup" 
+    onclick="">
     VIEW</a></td>
-  </tr><br>	
-</table> <br><br><br><br>
-			
-			
-			
-			
-			</div>
-		
-		</div>
-<div id="Laguna" class="tabcontent">
-	
-	<div class="row">
-	<div class="w3-third">
-		<strong>QR Code for Dynamic Menu</strong><br><br>
-		<a href="images/qr-code-thecliff.png" download><img src="images/qr-code-thecliff.png" width="60%" height="auto"></a><br><br>
-		 This points to the redirect URL.<br><br>
-		
-		<label>To replace the QR Code upload your image file</label>
-		<form action="">
-		  <input type="file" id="myFile" name="filename"><br><br>
-		  <input type="submit">
-		</form><br>
-		<em>Click image to download for printing purposes</em><br>
-	</div>
-	<div class="w3-third">
-		
-		<strong>QR Code for vCard</strong><br><br>
-		<a href="images/qr-code-thecliff.png" download><img src="images/qr-code-thecliff.png" width="60%" height="auto"></a><br><br>
-		 This points to the vCard URL.<br><br>
-		
-		<label>To replace the QR Code upload your image file</label>
-		<form action="">
-		  <input type="file" id="myFile" name="filename"><br><br>
-		  <input type="submit">
-		</form><br>
-		<em>Click image to download for printing purposes</em><br>
-		</form>
-	
-	
-	
-	</div>
-	<div class="w3-third">
-		<strong>QR Code for Laguna Beach Fun Directory</strong><br><br>
-	
-		<a href="images/qr-code-thecliff.png" download><img src="images/qr-code-thecliff.png" width="60%" height="auto"></a><br><br>
-		 This points to the Laguna Fun Map URL.<br><br>
-		
-		<label>To replace the QR Code upload your image file</label>
-		<form action="">
-		  <input type="file" id="myFile" name="filename"><br><br>
-		  <input type="submit">
-		</form><br>
-		<em>Click image to download for printing purposes</em><br>
-		</form>
-	
-	
-	
-	</div>
-	</div>
-	
-	
-	
-			</div>
+    </tr><br>	
+    </table> <br><br><br><br>
+    
+    
+    
+    
+    </div>
+    
+    </div>
+    
+    <div id="tab10" class="tabcontent">
+    
+    <div class="row">
+    <div class="w3-third">
+    <strong>QR Code for Dynamic Menu</strong><br><br>
+    <a href="images/qr-code-thecliff.png" download><img src="images/qr-code-thecliff.png" width="60%" height="auto"></a><br><br>
+    This points to the redirect URL.<br><br>
+    
+    <label>To replace the QR Code upload your image file</label>
+    <form action="">
+    <input type="file" id="myFile" name="filename"><br><br>
+    <input type="submit">
+    </form><br>
+    <em>Click image to download for printing purposes</em><br>
+    </div>
+    <div class="w3-third">
+    
+    <strong>QR Code for vCard</strong><br><br>
+    <a href="images/qr-code-thecliff.png" download><img src="images/qr-code-thecliff.png" width="60%" height="auto"></a><br><br>
+    This points to the vCard URL.<br><br>
+    
+    <label>To replace the QR Code upload your image file</label>
+    <form action="">
+    <input type="file" id="myFile" name="filename"><br><br>
+    <input type="submit">
+    </form><br>
+    <em>Click image to download for printing purposes</em><br>
+    </form>
+    
+    
+    
+    </div>
+    <div class="w3-third">
+    <strong>QR Code for Laguna Beach Fun Directory</strong><br><br>
+    
+    <a href="images/qr-code-thecliff.png" download><img src="images/qr-code-thecliff.png" width="60%" height="auto"></a><br><br>
+    This points to the Laguna Fun Map URL.<br><br>
+    
+    <label>To replace the QR Code upload your image file</label>
+    <form action="">
+    <input type="file" id="myFile" name="filename"><br><br>
+    <input type="submit">
+    </form><br>
+    <em>Click image to download for printing purposes</em><br>
+    </form>
+    
+    
+    
+    </div>
+    </div>
+    
+    
+    
+    </div>
 		</div>
 
   	</div>
 	
-	<hr>
-	<hr>
-	<hr>
-	<hr>
 	
-	<hr>
-	
-	<hr>
 	
 	<?php echo file_get_contents("footer.html"); ?>	
 
@@ -740,6 +1044,35 @@ function openCity(evt, cityName) {
   }
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
+}
+
+window.onload = function() {
+  //Check File API support
+  if (window.File && window.FileList && window.FileReader) {
+    var filesInput = document.getElementById("files");
+    filesInput.addEventListener("change", function(event) {
+      var files = event.target.files; //FileList object
+      var output = document.getElementById("result");
+      for (var i = 0; i < files.length; i++) {
+        var file = files[i];
+        //Only pics
+        if (!file.type.match('image'))
+          continue;
+        var picReader = new FileReader();
+        picReader.addEventListener("load", function(event) {
+          var picFile = event.target;
+          var div = document.createElement("div");
+          div.innerHTML = "<img class='thumbnail' src='" + picFile.result + "'" +
+            "title='" + picFile.name + "'/>";
+          output.insertBefore(div, null);
+        });
+        //Read the image
+        picReader.readAsDataURL(file);
+      }
+    });
+  } else {
+    console.log("Your browser does not support File API");
+  }
 }
 </script>	
 <script>

@@ -1,7 +1,22 @@
 body{font-family: "Raleway", sans-serif;}
 
 
+label.titleCustom {
+    font-size: 15px;
+    display: block;
+    color: #00477e;
+    margin-bottom: 3px; font-weight:700;
+}
 
+
+label.radioButtonName {
+    font-size: 13px;
+    display: inline-block;
+    color:#333;
+    margin-bottom: 3px; font-weight:600; margin-right:10px;
+}
+
+.radioBtnSec{font-size: 13px; background: #eee; border-radius: 5px; padding: 10px; width: 100%; margin-top: 7px; margin-bottom:15px;}
 
 .formTable{max-width: 600px; width: 100%;}
 
@@ -12,6 +27,29 @@ body{font-family: "Raleway", sans-serif;}
 
 .rowCustomFour .fieldSecFull{width:100%; float: none; padding-right: 0;}
 .rowCustomFour .fieldSecFull label{width: 100%; font-size: 14px; display: block; margin: 5px 0 5px 0;}
+
+.rowCustomFour .fieldSecHalf label.uploadTxt{width: 100%;
+font-size: 12px;
+display: block;
+margin: 0;
+line-height: 12px; color: #6a6969;}
+
+.rowCustomFour .fieldSecFull label.uploadTxt{width: 100%;
+font-size: 12px;
+display: block;
+margin: 0;
+line-height: 12px; color: #6a6969;}
+
+
+.form-inline input[type="file"]{
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    border:none;
+}
+
+.dateTime{font-size:12px;}
 
 .formCss{display: block;
 width: 100%;
@@ -55,6 +93,64 @@ background-clip: padding-box;
 border: 1px solid #ced4da;
 border-radius: .25rem;
 transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; margin: 0 !important; height: 406px;}
+
+
+.adminResturentTab .tab button {
+    padding: 6px 10px;
+    font-size: 13px;}
+.adminResturentTab .tabcontent h5.title{display: block;margin: 0 0 7px 0;font-size: 18px;width: 100%;font-weight: 700;}
+.adminResturentTab .tabcontent .aboutLeft{width:50%; float:left; padding-right:15px;}
+.adminResturentTab .tabcontent .aboutLeft:last-child{padding-right:0;}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.logoUpload{font-size: 13px; background: #eee; border-radius: 5px; padding: 10px; width: 100%; margin-top: 7px; margin-bottom:15px;}
+
+.divFlex{display:flex; align-items: center;}
+.prvImg{font-size:22px;}
+.uploadTxt{font-size:12px; display:block; color: #6a6969;}
+.uploadField{font-size:12px;}
+.edite{font-size: 20px; color: #3f51b5; margin-right: 5px;}
+.update{padding: 4px 6px; font-size: 12px; background: #4CAF50; color: #fff; border-radius: 3px; text-decoration: none; line-height: 12px;}
+
+.table_responsiveCus th, .table_responsiveCus td{font-size:14px;}
+#result{display:block; width:100%; margin-top:7px;}
+#result div{max-width: 72px;
+width: 100%; 
+float: left;
+padding: 4px;}
+
+.createSecUploadImg{width:50%;}
+
+#result img{max-width:100%; height:auto;}
+
+.dateTimRow{margin-bottom:10px;}
+.dateTimLeft{max-width: 325px;
+float: left;
+width: 100%;}
+
+.dateTimRight{max-width: 325px;float: left;width: 100%;}
+.timRow{font-size: 13px;
+background: #eee;
+border-radius: 5px;
+padding: 5px 10px;
+width: 100%;
+margin-top: 0;
+margin-bottom: 15px;}
+
+
+
+
+
+
+
+
+
 
 
 
