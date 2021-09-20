@@ -143,7 +143,13 @@ width: 100%;
 margin-top: 0;
 margin-bottom: 15px;}
 
-
+input.colorPickerCustom {
+    padding: 0;
+    max-width: 119px;
+    width: 100%;
+    height: 34px;
+    margin: 0;
+}
 
 
 
