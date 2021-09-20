@@ -366,7 +366,7 @@ body {font-family: "Raleway" sans-serif;}
         <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
          </td>
         <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
-        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple></td>
         <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
       </tr>
       
@@ -400,7 +400,7 @@ body {font-family: "Raleway" sans-serif;}
         <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
          </td>
         <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
-        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple></td>
         <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
       </tr>
       <tr>
@@ -413,7 +413,7 @@ body {font-family: "Raleway" sans-serif;}
         <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
          </td>
         <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
-        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple></td>
         <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
       </tr>
       <tr>
@@ -426,7 +426,7 @@ body {font-family: "Raleway" sans-serif;}
         <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
          </td>
         <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
-        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple></td>
         <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
       </tr>
       <tr>
@@ -439,7 +439,7 @@ body {font-family: "Raleway" sans-serif;}
         <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
          </td>
         <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
-        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple></td>
         <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
       </tr>
       <tr>
@@ -452,7 +452,7 @@ body {font-family: "Raleway" sans-serif;}
         <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
          </td>
         <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
-        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple></td>
         <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
       </tr>
     </tbody>
@@ -485,7 +485,7 @@ body {font-family: "Raleway" sans-serif;}
         <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
          </td>
         <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
-        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple></td>
         <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
       </tr>
       <tr>
@@ -498,7 +498,7 @@ body {font-family: "Raleway" sans-serif;}
         <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
          </td>
         <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
-        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple></td>
         <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
       </tr>
       <tr>
@@ -511,7 +511,7 @@ body {font-family: "Raleway" sans-serif;}
         <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
          </td>
         <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
-        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple></td>
         <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
       </tr>
       <tr>
@@ -524,7 +524,7 @@ body {font-family: "Raleway" sans-serif;}
         <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
          </td>
         <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
-        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple></td>
         <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
       </tr>
       <tr>
@@ -537,7 +537,7 @@ body {font-family: "Raleway" sans-serif;}
         <td><a href="#"><i class="fa fa-picture-o prvImg" aria-hidden="true"></i></a>
          </td>
         <td><label class="uploadTxt">Upload Section images JPG or PNG:</label>
-        <input type="file" id="myfile" class="uploadField" name="myfile" multiple=""></td>
+        <input type="file" id="myfile" class="uploadField" name="myfile" multiple></td>
         <td class="divFlex"><a href="#" class="edite"><i class="fa fa-pencil-square" aria-hidden="true"></i></a> <a href="#" class="update">Update</a></td>
       </tr>
     </tbody>
@@ -865,7 +865,99 @@ body {font-family: "Raleway" sans-serif;}
 			</div>
     
     </div>
-    <div id="tab7" class="tabcontent">xxxxxxxxxxx</div>
+    
+    <div id="tab7" class="tabcontent">
+	  This is where you provide details of any notices that need to be displayed on your menus. They could be regulatory notices required by law, food allergy comments, disclaimers or comments which relate to specific localized circumstances.<br>
+	  <br>Using the drop down selectors choose a Menu and Position of the Notice. You then select the Header Title and the color of the Font followed by the Description. You must then SAVE this before entering another Notice.<br><br>
+	
+	<div class="formTable">
+		
+
+			<form class="form-inline" action="">
+				<div class="rowCustomFour">
+			<div class="fieldSecHalf">
+			<label>Menu</label>
+			<select id="pickup_place" name="pickup_place" class="formCss">
+			<option value="" selected="selected">Select One</option>
+			<option value="all" >ALL Menus</option>
+			<option value="breakfast" >Breakfast</option>
+			<option value="lunch" >Lunch</option>
+			<option value="dinner" >Dinner</option>
+			<option value="brunch" >Brunch</option>
+			<option value="specials" >Specials</option>
+			</select>
+			 
+			</div>
+				
+			<div class="fieldSecHalf">
+			<label>Position</label>
+			<select id="" name="" class="formCss">
+			<option value="" selected="selected">Select One</option>
+			<option value="img1" >Top under Header Image</option>
+			<option value="img2" >Bottom after last Section </option>
+			<option value="img3" >After each Section</option>
+			</select>
+			 
+			</div>
+					
+			</div>
+				</form> 
+			
+			
+			<form action="">
+				<div class="rowCustomFour">
+			<div class="fieldSecFull">
+			<label for="headTitle">Header Title:</label>
+			<input type="text" id="headTitle" name="headTitle" value="" class="formCss"></div>
+			</div>
+			</form>	
+			<form class="form-inline" action="">
+			<div class="rowCustomFour">
+				<div class="fieldSecHalf">
+			  <label for="favcolor">Select your font color:</label>
+			  <input type="color" id="colorPicker" class="colorPickerCustom" name="favcolor" value="#ff0000">
+				</div>
+				
+			<div class="fieldSecHalf">
+			<label for="code">Enter Code:</label>
+			<input type="text" id="box" name="code" value="" class="formCss">			
+			</div>
+			</div>
+		
+			</form>
+			<form class="form-inline" action="">
+			<div class="rowCustomFour">
+			<div class="fieldSecHalf">
+			  <label for="favcolor">Select your background color:</label>
+			  <input type="color" id="colorPicker2" class="colorPickerCustom" value="#6a5acd">
+			</div>
+			<div class="fieldSecHalf">
+			<label for="code">Enter Code:</label>
+			<input type="text" id="box2" name="code" value="" class="formCss">	
+			</div>	
+			</div>
+			</form>
+			<form class="form-inline" action="">
+			<div class="rowCustomFour">
+			<div class="fieldSecFull">
+			<label for="vehicle2"> Notice Content</label>
+			<textarea id="spclMore" name="spclMore" rows="5" cols="60" class="formCssTextArea"></textarea>	
+			</div>
+			</div>
+			</form>
+			</div>
+	
+	<br>
+	  
+	  
+	  
+	  
+	  
+	    <form action="thanks-order.php" target="_self">	
+		<button class="w3-button w3-green" type="submit">Save & Continue </button>
+		</form> 
+    </div>
+    
     <div id="tab8" class="tabcontent">
     
     <form action="" class="form-inline">
