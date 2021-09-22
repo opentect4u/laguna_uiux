@@ -128,7 +128,7 @@ body {font-family: Raleway, sans-serif;}
 	
 </style>	
 	
-<link rel="stylesheet" type="text/css" href="apps.css">	
+	
 <body class="w3-white">
 
 <!-- Top container -->
@@ -154,19 +154,18 @@ body {font-family: Raleway, sans-serif;}
 		
 		<div class="w3-container">
   <div class="w3-cell-row">
-  <div class="w3-container w3-full w3-cell w3-mobile">
-  <div class="thankUSec">
-		  <h2><strong>Thank You!</strong></h2>
-		  <p>		    We are happy to have you as a part of the Shop Local Laguna family!<br> 
-		    <br>We've received your order, including all photos and data (or link to your website for us to collect), and will now commence with the development of your Digital Menu.<br>
-		    <br>If for any reason there are any problems then we will contact you by email.<br>
-		    <br><strong>What's Next?</strong><br>
-		    <br>Before your Digital Menu can go live you must check that all of the menu content is correct, and meets with your overall approval. You should do this by scanning the QR Code contained in the completion email we send you, this way you will experience (the same way that your customers will) viewing and navigating your new menu platform on your mobile.<br>
-		    <br>If everything is in order then you will Approve the Menu.<br> 
-		    <br>However if there are any errors or omissions you will identify those issues in the form and they would be corrected by our technical support team and once completed you will receive the confirmation email again. Any future amendments to the Menu will be handled by you or your authorized staff, from within your platform's back-office.<br>
-		    <br>Once you've provided us with your final approval, your Menu will go LIVE. You will receive an email which includes a link to your sign-in page, where your Username will be your registered email address. We will provide a temporary password which expires 2 hours after first logging in, so the first thing you must do is to create your new password.<br>
-	      </p>
-   </div> 
+  <div class="w3-container w3-half w3-cell w3-mobile">
+		  <p><strong>THANK YOU!</strong><br>
+		  We are happy to have you as a part of the Shop Local Laguna family!<br> 
+		  <br>We've received your order, including all photos and data (or link to your website for us to collect), and will now commence with the development of your Digital Menu.<br>
+		  <br>If for any reason there are any problems then we will contact you by email.<br>
+		  <br><strong>What's Next?</strong><br>
+		  <br>Before your Digital Menu can go live you must check that all of the menu content is correct, and meets with your overall approval. You should do this by scanning the QR Code contained in the completion email we send you, this way you will experience (the same way that your customers will) viewing and navigating your new menu platform on your mobile.<br>
+			<br>If everything is in order then you will Approve the Menu.<br> 
+			<br>However if there are any errors or omissions you will identify those issues in the form and they would be corrected by our technical support team and once completed you will receive the confirmation email again. Any future amendments to the Menu will be handled by you or your authorized staff, from within your platform's back-office.<br>
+			<br>Once you've provided us with your final approval, your Menu will go LIVE. You will receive an email which includes a link to your sign-in page, where your Username will be your registered email address. We will provide a temporary password which expires 2 hours after first logging in, so the first thing you must do is to create your new password.<br>
+	 		 </p>
+    
 
   </div>
   <div class="w3-container w3-half w3-cell w3-mobile">

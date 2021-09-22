@@ -196,7 +196,7 @@ body {font-family: Raleway, sans-serif;}
   transform: rotate(45deg);
 }
 </style>
-	
+<link rel="stylesheet" type="text/css" href="apps.css">
 <body class="w3-white">
 
 <!-- Top container -->
@@ -239,12 +239,28 @@ body {font-family: Raleway, sans-serif;}
 
 
 
-	<form action="" method="get" id="approval">  
+	<!--<form action="" method="get" id="approval">  
 	  <label for="rest">Restaurant Name:</label>
 	  <input type="text" id="rest" name="rest"><br><br>
 	  <label for="contact">Name of person:</label>
 	  <input type="text" id="contact" name="contact"><br>
-	</form><br>Please signify your approval or request an update of the Menu:<br><br>
+	</form>-->
+    
+    <div class="rowCustomFour">
+			<div class="fieldSecHalf">
+			<label>Restaurant Name:</label>
+			 <input type="text" id="rest" name="rest" class="formCss">
+			</div>
+            
+            <div class="fieldSecHalf">
+			<label>Name of person:</label>
+            <input type="text" id="contact" name="contact" class="formCss">
+			 
+			</div>
+			</div>
+    
+    
+    <br>Please signify your approval or request an update of the Menu:<br>
 	  <form>
 		  <input type="radio" id="html" name="fav_language" value="HTML">
 		  <label for="html">I have reviewed my MENU platform, and I APPROVE</label><br><br>
@@ -252,7 +268,7 @@ body {font-family: Raleway, sans-serif;}
 		  <label for="javascript">I have checked my MENU Platform, and would like to request an update:</label><br><br>
 		  
 	  </form>
-	  Which Menu/s require an update?<br><br>
+	  Which Menu/s require an update?<br>
 	  <form class="form-inline" action="">
 	  <label class="container">Breakfast
 		  <input type="checkbox" checked="checked">
@@ -274,13 +290,17 @@ body {font-family: Raleway, sans-serif;}
 		  <input type="checkbox">
 		  <span class="checkmark"></span>
 		</label>
-	  </form><br><br>
+	  </form><br>
 	  
-	  Please describe what requires updating for each Menu.<br> 
-	  <textarea rows="6" cols="60" maxlength="50"></textarea><br><br>
+      
+      <div class="rowCustomFour">
+			<div class="fieldSecFull">
+			<label for="vehicle2"> Please describe what requires updating for each Menu.</label>
+            <textarea rows="6" cols="60" maxlength="50" class="formCssTextArea"></textarea>
+			</div>
+			</div>
 	  
-
-		<button type="submit" form="nameform" value="Submit">Submit</button>
+<button class="w3-button w3-green" type="submit">Submit </button>
 	  
 
 	  

@@ -151,8 +151,12 @@ input.colorPickerCustom {
     margin: 0;
 }
 
-
-
+.thankUSec{background: #eaf8fb;
+border-radius: 10px;
+box-shadow: #eae8e8 0px 0px 6px 3px;
+padding: 15px;
+border: #d4e9ff solid 1px;}
+.thankUSec h2{color: #093651; font-size: 21px; text-transform: none;}
 
 
 
