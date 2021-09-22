@@ -180,7 +180,6 @@ body {font-family: "Raleway" sans-serif;}
   <button class="tablinks" onclick="openCity(event, 'tab8')">About Us</button>
   
   <button class="tablinks" onclick="openCity(event, 'tab9')">Live Menus</button>
-  <button class="tablinks" onclick="openCity(event, 'tab10')">QR Codes</button>
 </div>
 
     <div id="tab1" class="tabcontent"><br><br>
@@ -987,32 +986,26 @@ body {font-family: "Raleway" sans-serif;}
     
     
     <div id="tab9" class="tabcontent">
-    <strong>MENU URL's</strong><br><br>
-    <form class="form-inine">
-    Breakfast URL: <input type="text" value="" size="100">
-    </form>	<br>
-    <form class="form-inine">
-    Lunch URL: <input type="text" value="" size="100">
-    </form>	<br>
-    <form class="form-inine">
-    Dinner URL: <input type="text" size="100">
-    </form>	<br>
-    <form class="form-inine">
-    Brunch URL: <input type="text" size="100">
-    </form>	<br>
-    <form class="form-inine">
-    Specials URL: <input type="text" size="100">
-    </form><br><br>
-    <strong>REDIRECT URL (to be used for Menu QR Code)</strong><br><br>
-    <form class="form-inine">
-    Bitly URL: <input type="text" size="120">
-    </form><br>
-    <strong>LANDING PAGE URL (to be used on vCard)</strong><br><br>
-    <form class="form-inine">
-    Bitly URL: <input type="text" size="120">
-    </form><br><br>
     
+    <div class="formTable">
+    <div class="rowCustomFour">
+			<div class="fieldSecFull">
+			<label>Menu URL</label>
+			<input type="url" id="headTitle" name="headTitle" value="" class="formCss" placeholder="URL" >
+			</div>
+	</div>
+    </div>
+    <hr>
+    <div class="formTable">
+    <div class="rowCustomFour">
+			<div class="fieldSecFull">
+			<label> QR Code for Dynamic Menu</label>
+			<a href="images/qr-code-thecliff.png" download=""><img src="images/qr-code-thecliff.png" class="barcodeImg"></a>
+			</div>
+	</div>
     
+    </div>
+    <hr>
     
     <strong>You can check any amendments by using the menu button below to view that menu. Always refresh the page before checking and clearing your cache memory if you need to.</strong>	
     <div style="overflow-x:auto;">
@@ -1025,17 +1018,17 @@ body {font-family: "Raleway" sans-serif;}
     <th scope="col">SPECIALS</th>
     </tr>
     <tr bgcolor="#fff" align="center">
-    <td><a href="https://shoplocallaguna.com/restaurants/the-cliff/breakfast.php" 
+    <td><a href="../frontend/index.html" 
     target="popup" 
-    onclick="window.open('https://shoplocallaguna.com/restaurants/the-cliff/breakfast.php','popup','width=400,height=500'); return false;">
+    onclick="window.open('../frontend/index.html','popup','width=400,height=500'); return false;">
     VIEW</a></td>
-    <td><a href="https://shoplocallaguna.com/restaurants/the-cliff/lunch.php" 
+    <td><a href="../frontend/index.html" 
     target="popup" 
-    onclick="window.open('https://shoplocallaguna.com/restaurants/the-cliff/lunch.php','popup','width=400,height=500'); return false;">
+    onclick="window.open('../frontend/index.html','popup','width=400,height=500'); return false;">
     VIEW</a></td>
-    <td><a href="https://shoplocallaguna.com/restaurants/the-cliff/dinner.php" 
+    <td><a href="../frontend/index.html" 
     target="popup" class="w3-container" 
-    onclick="window.open('https://shoplocallaguna.com/restaurants/the-cliff/dinner.php','popup','width=400,height=500'); return false;">
+    onclick="window.open('../frontend/index.html','popup','width=400,height=500'); return false;">
     VIEW</a></td>
     <td><a href="" 
     target="popup" 
@@ -1046,69 +1039,13 @@ body {font-family: "Raleway" sans-serif;}
     onclick="">
     VIEW</a></td>
     </tr><br>	
-    </table> <br><br><br><br>
-    
-    
-    
+    </table> <br>
     
     </div>
-    
+    <button class="w3-button w3-green" type="submit">Send Mail </button>
     </div>
     
-    <div id="tab10" class="tabcontent">
-    
-    <div class="row">
-    <div class="w3-third">
-    <strong>QR Code for Dynamic Menu</strong><br><br>
-    <a href="images/qr-code-thecliff.png" download><img src="images/qr-code-thecliff.png" width="60%" height="auto"></a><br><br>
-    This points to the redirect URL.<br><br>
-    
-    <label>To replace the QR Code upload your image file</label>
-    <form action="">
-    <input type="file" id="myFile" name="filename"><br><br>
-    <input type="submit">
-    </form><br>
-    <em>Click image to download for printing purposes</em><br>
-    </div>
-    <div class="w3-third">
-    
-    <strong>QR Code for vCard</strong><br><br>
-    <a href="images/qr-code-thecliff.png" download><img src="images/qr-code-thecliff.png" width="60%" height="auto"></a><br><br>
-    This points to the vCard URL.<br><br>
-    
-    <label>To replace the QR Code upload your image file</label>
-    <form action="">
-    <input type="file" id="myFile" name="filename"><br><br>
-    <input type="submit">
-    </form><br>
-    <em>Click image to download for printing purposes</em><br>
-    </form>
-    
-    
-    
-    </div>
-    <div class="w3-third">
-    <strong>QR Code for Laguna Beach Fun Directory</strong><br><br>
-    
-    <a href="images/qr-code-thecliff.png" download><img src="images/qr-code-thecliff.png" width="60%" height="auto"></a><br><br>
-    This points to the Laguna Fun Map URL.<br><br>
-    
-    <label>To replace the QR Code upload your image file</label>
-    <form action="">
-    <input type="file" id="myFile" name="filename"><br><br>
-    <input type="submit">
-    </form><br>
-    <em>Click image to download for printing purposes</em><br>
-    </form>
-    
-    
-    
-    </div>
-    </div>
-    
-    
-    
-    </div>
+
 		</div>
 
   	</div>
@@ -1166,6 +1103,26 @@ window.onload = function() {
     console.log("Your browser does not support File API");
   }
 }
+
+
+	
+function myColor() {
+var color = document.getElementById('colorPicker').value;
+document.body.style.backgroundColor = color;
+document.getElementById('box').value = color;
+}
+// myColor() function is called
+document.getElementById('colorPicker')
+.addEventListener('input', myColor);
+
+function myColor2() {
+var color = document.getElementById('colorPicker2').value;
+document.body.style.backgroundColor = color;
+document.getElementById('box2').value = color;
+}
+// myColor() function is called
+document.getElementById('colorPicker2')
+.addEventListener('input', myColor2);
 </script>	
 <script>
 // Get the element with id="defaultOpen" and click on it
